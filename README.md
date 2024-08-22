@@ -62,6 +62,7 @@ The Tennis Rankings Tracker is a Python application designed to scrape and visua
 To run the application, use the following command:
    ```sh
    python tennisranking.py
+   ```
 
 Once the application is running, a GUI will open. Users can:
    1. View and track player rankings week-by-week.
@@ -77,7 +78,7 @@ Upon running the script, the GUI will present player rankings, visualizing both 
 To build the executable using PyInstaller, use the following command:
    '''sh
    pyinstaller --onefile --windowed tennisranking.py
-
+   ```
 The executable will be found in the _'dist'_ directory
 
 ### Contributing
