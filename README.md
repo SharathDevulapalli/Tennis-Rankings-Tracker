@@ -28,45 +28,40 @@ The Tennis Rankings Tracker is a Python application designed to scrape and visua
    cd tennis-rankings-tracker
 Install Required Python Packages:
 
-sh
-Copy code
-pip install -r requirements.txt
-Install ChromeDriver:
+2. **Install Required Python Packages**:
+   ```sh
+   pip install -r requirements.txt
 
-Download ChromeDriver:
-Go to the ChromeDriver download page and download the version that matches your installed version of Chrome.
-Extract the Executable:
-Extract the downloaded file to a directory on your computer.
-Add ChromeDriver to System Path:
-Windows:
+### Install ChromeDriver:
 
-Right-click on This PC or Computer, and select Properties.
-Click Advanced system settings.
-In the System Properties window, click the Environment Variables button.
-In the System variables section, find the Path variable, and click Edit.
-Add the path to the directory containing chromedriver.exe and click OK.
-Mac/Linux:
-Add the path to chromedriver to your system PATH by adding the following line to your ~/.bash_profile or ~/.bashrc file:
+1. **Download ChromeDriver**:
+   Go to the ChromeDriver download page and download the version that matches your installed version of Chrome.
+2. **Extract  the Executable**:
+   Extract the downloaded file to a directory on your computer.
+3. **Add ChromeDriver to System Path**:
+   Windows:
+   1. Right-click on This PC or Computer, and select Properties.
+   2. Click Advanced system settings.
+   3. In the System Properties window, click the Environment Variables button.
+   4. In the System variables section, find the Path variable, and click Edit.
+   5. Add the path to the directory containing chromedriver.exe and click OK.
+   Mac/Linux:
+   1. Add the path to chromedriver to your system PATH by adding the following line to your ~/.bash_profile or ~/.bashrc file:
+         ```sh
+         export PATH=$PATH:/path/to/chromedriver
+   2. Then reload your profile:
+         ```sh
+         source ~/.bash_profile
 
-sh
-Copy code
-export PATH=$PATH:/path/to/chromedriver
-Then reload your profile:
+4. **Run the Application**:
+   To run the application, use the following command:
+         ```sh
+         python tennisranking.py
+5. Once the application is running, a GUI will open. Users can:
+   1. View and track player rankings week-by-week.
+   2. Expand player rows to see their weekly point changes.
+   3. Monitor YTD point changes for each player.
 
-sh
-Copy code
-source ~/.bash_profile
-Run the Application
-To run the application, use the following command:
-
-sh
-Copy code
-python tennisranking.py
-Once the application is running, a GUI will open. Users can:
-
-View and track player rankings week-by-week.
-Expand player rows to see their weekly point changes.
-Monitor YTD point changes for each player.
 Usage
 Upon running the script, the GUI will present player rankings, visualizing both ATP and WTA data in separate tabs.
 You can expand each player to see weekly points and collapse it back when needed.
