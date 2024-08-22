@@ -34,6 +34,9 @@ The Tennis Rankings Tracker is a Python-based application designed to scrape and
 pip install -r requirements.txt
 
 
+### 1. **Install ChromeDriver**
+
+```markdown
 ### Install ChromeDriver:
 
 #### Download ChromeDriver:
@@ -63,17 +66,25 @@ pip install -r requirements.txt
     source ~/.bash_profile
     ```
 
-### Run the Application:
+## Run the Application
+
+To run the application, use the following command:
 
 ```sh
 python tennisranking.py
 
-### Usage
+
+
+### 3. **Usage**
+
+```markdown
+## Usage
 
 - Upon running the script, the application will open a graphical user interface.
 - Users can track tennis players' rankings, visualize their weekly performance, and monitor their year-to-date changes.
 
-### Building the Executable
+
+## Building the Executable
 
 To build the executable using PyInstaller, run the following command:
 
@@ -81,12 +92,14 @@ To build the executable using PyInstaller, run the following command:
 pyinstaller --onefile --windowed tennisranking.py
 
 
-- The executable will be found in the `dist` directory.
 
-### Acknowledgments
+### 5. **Acknowledgments**
+
+```markdown
+## Acknowledgments
 
 - Data sourced from [TennisExplorer.com](https://www.tennisexplorer.com).
 
-### License
+## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
