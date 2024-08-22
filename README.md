@@ -75,19 +75,20 @@ Upon running the script, the GUI will present player rankings, visualizing both 
 ### Build the Executable 
 
 To build the executable using PyInstaller, use the following command:
-   ```sh
+   '''sh
    pyinstaller --onefile --windowed tennisranking.py
 
-The executable will be found in the dist directory.
-
+The executable will be found in the _'dist'_ directory
 
 ### Contributing
-   If you want to contribute to this project:
+
+If you want to contribute to this project:
       Fork the repository.
       Create a new feature branch.
       Make your changes and ensure they are tested.
       Create a pull request to the main repository.
 
 ### Acknowledgments
+
    1. Data sourced from TennisExplorer.com.
    2. Special thanks to contributors for their help and inspiration.
