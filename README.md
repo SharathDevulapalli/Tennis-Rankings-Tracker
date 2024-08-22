@@ -59,11 +59,11 @@ The Tennis Rankings Tracker is a Python application designed to scrape and visua
        ```
 4. **Run the Application:**
 
-   To run the application, use the following command:
+To run the application, use the following command:
    ```sh
    python tennisranking.py
 
-   Once the application is running, a GUI will open. Users can:
+Once the application is running, a GUI will open. Users can:
    1. View and track player rankings week-by-week.
    2. Expand player rows to see their weekly point changes.
    3. Monitor YTD point changes for each player.
